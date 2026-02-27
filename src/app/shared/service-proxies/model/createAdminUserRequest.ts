@@ -7,6 +7,7 @@
  * https://openapi-generator.tech
  * Do not edit the class manually.
  */
+import { UserRole } from './userRole';
 
 
 export interface CreateAdminUserRequest { 
@@ -14,6 +15,9 @@ export interface CreateAdminUserRequest {
     password?: string | null;
     firstName?: string | null;
     lastName?: string | null;
-    role?: string | null;
+    role?: UserRole;
 }
+export namespace CreateAdminUserRequest {
+}
+
 

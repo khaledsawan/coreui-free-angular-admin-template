@@ -129,6 +129,7 @@ model/updateUserRoleRequest.ts
 model/updateUserStatusRequest.ts
 model/uploadImageResponseDto.ts
 model/upsertSystemSettingRequest.ts
+model/userRole.ts
 model/validateTokenQuery.ts
 model/validationProblemDetails.ts
 param.ts

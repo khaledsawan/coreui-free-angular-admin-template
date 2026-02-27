@@ -7,9 +7,13 @@
  * https://openapi-generator.tech
  * Do not edit the class manually.
  */
+import { UserRole } from './userRole';
 
 
 export interface UpdateUserRoleRequest { 
-    role?: string | null;
+    role?: UserRole;
 }
+export namespace UpdateUserRoleRequest {
+}
+
 

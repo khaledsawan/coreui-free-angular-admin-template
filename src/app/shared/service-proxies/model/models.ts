@@ -93,5 +93,6 @@ export * from './updateUserRoleRequest';
 export * from './updateUserStatusRequest';
 export * from './uploadImageResponseDto';
 export * from './upsertSystemSettingRequest';
+export * from './userRole';
 export * from './validateTokenQuery';
 export * from './validationProblemDetails';
